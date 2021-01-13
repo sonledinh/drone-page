@@ -1,0 +1,370 @@
+@media (max-width: 767px) {
+    .header-top {
+        margin-bottom: 1px;
+        background: #015aaa;
+        display: none;
+    }
+    .header-menu {
+        display: none;
+    }   
+    .menu-mobile {
+        display: block !important;
+        padding: 5px 0;
+        background: #015aaa;
+    }
+
+    .menu-mobile .logo img {
+        height: 40px;
+    }
+
+    .menu-mobile .header a {
+    }
+
+    .btn-menu a {
+        font-size: 22px;
+        color: #fff;
+    }
+
+    nav#menu {
+        display: none;
+        z-index: 1001;
+        font-size: 15px;
+    }
+
+    nav#menu.mm-menu_opened {
+        display: block;
+    }
+    li.mm-listitem input {
+        width: 100%;
+        height: 36px;
+        padding: 0 15px;
+        border: 1px solid #015aaa;
+    }
+
+    li.mm-listitem {
+        position: relative;
+    }
+
+    li.mm-listitem button {
+        background: #015aaa;
+        color: #fff;
+        height: 35px;
+        width: 35px;
+        border: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 12;
+    }
+    .new-big .info {
+        position: relative;
+        padding: 10px;
+    }
+
+    .new-big {
+        margin-bottom: 10px;
+    }
+
+    .new-big .info h2 a {
+        font-size: 16px;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    .new-right .item .info a {
+        font-size: 15px;
+    }
+
+    .new-right .item .info {
+        padding: 10px;
+    }
+
+    .item-new-box .info a {
+        font-size: 15px;
+    }
+
+    .new-home.new-list .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+    .new-home.new-list .col-md-4:last-child {
+        margin-bottom: 0;
+    }
+
+    .item-notice a {
+        font-size: 13px;
+    }
+
+    .box-item-notice h3 {
+        font-size: 16px;
+    }
+    .menu-footer ul {
+        width: 900px;
+    }
+
+    .scroll-menu {
+        overflow: auto;
+    }
+
+    .menu-footer a {
+        font-size: 14px;
+    }
+
+    .info-footer {
+        padding: 30px 10px;
+    }
+
+    .top-ft h3 {
+        font-size: 14px;
+    }
+
+    .top-ft h2 {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 13px;
+        background: #015aaa;
+    }
+
+    .bot-ft li {
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    .bot-ft li:last-child {
+        margin-bottom: 0;
+    }
+    .menu-footer {
+        background: #e7e7e8;
+    }
+    .detail {
+        font-size: 14px;
+    }
+
+    .box-user-about h3 {
+        font-size: 15px;
+    }
+    .item-cate .info a {
+        font-size: 14px;
+    }
+
+    .item-cate .info {
+        padding: 10px;
+    }
+
+    .list-cate .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+    .list-cate .col-md-4:last-child {
+        margin-bottom: 0;
+    }
+
+    .big-cate .info a {
+        font-size: 14px;
+    }
+
+    .big-cate .info {
+        padding: 15px;
+    }
+
+    .list-small .col-md-6 {
+        margin-bottom: 10px;
+    }
+
+    .item-small .avarta {
+        margin-right: 10px;
+    }
+
+    .item-small .info a {
+        font-size: 14px;
+    }
+
+    .list-bar-cate .info-cate-bar a {
+        font-size: 14px;
+    }
+    .side-bar-cate .list-bar-cate {
+        margin-bottom: 10px;
+    }
+
+    .side-bar-cate .item-cate {
+        margin-bottom: 10px;
+    }
+
+    .other-news {
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .title-detail .sapo {
+        font-size: 16px;
+    }
+
+    .title-detail h1 {
+        font-size: 20px;
+    }
+    .pagination {
+        margin-bottom: 15px;
+    }
+    .item-news .info .desc {
+        display: none;
+    }
+
+    .item-news .avarta {
+        margin-right: 10px;
+    }
+
+    .item-news .info h3 a {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    #category {
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+    .item-news .info .desc {
+        display: block;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+    .header-top {
+        margin-bottom: 1px;
+        background: #015aaa;
+    }
+    .header-menu {
+        display: none;
+    }   
+    .menu-mobile {
+        display: block !important;
+        padding: 5px 0;
+        background: #015aaa;
+    }
+
+    .menu-mobile .logo img {
+        height: 40px;
+    }
+
+    .menu-mobile .header a {
+    }
+
+    .btn-menu a {
+        font-size: 22px;
+        color: #fff;
+    }
+
+    nav#menu {
+        display: none;
+        z-index: 1001;
+        font-size: 15px;
+    }
+
+    nav#menu.mm-menu_opened {
+        display: block;
+    }
+    li.mm-listitem input {
+        width: 100%;
+        height: 36px;
+        padding: 0 15px;
+        border: 1px solid #015aaa;
+    }
+
+    li.mm-listitem {
+        position: relative;
+    }
+
+    li.mm-listitem button {
+        background: #015aaa;
+        color: #fff;
+        height: 35px;
+        width: 35px;
+        border: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 12;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .new-big .info {
+        padding: 15px;
+    }
+
+    .new-big .info h2 a {
+        font-size: 18px;
+    }
+
+    .new-right .item .info {
+        padding: 10px;
+    }
+
+    .item-new-box .info a {
+        font-size: 16px;
+    }
+
+    .new-right .item .info a {
+        font-size: 15px;
+    }
+
+    .menu-footer a {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+    .detail {
+        font-size: 14px;
+    }
+
+    .cate-about {
+        font-size: 13px;
+    }
+    .item-cate .info a {
+        font-size: 14px;
+    }
+
+    .item-small .info a {
+        font-size: 14px;
+    }
+
+    .big-cate .info a {
+        font-size: 14px;
+    }
+
+    .list-bar-cate .info-cate-bar a {
+        font-size: 14px;
+    }
+    .item-news .info h3 a {
+        font-size: 18px;
+    }
+
+    .item-news .info .desc {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1300px) and (min-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+
+    .h-menu {
+        font-size: 15px;
+    }
+
+    .h-menu ul li {
+        padding-right: 25px;
+    }
+
+    .menu-footer a {
+        font-size: 15px;
+    }
+}
