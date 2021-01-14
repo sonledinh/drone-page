@@ -1,90 +1,42 @@
 
-$('.slide-banner').slick({
-    autoplay: true,
-    arrow: false,
-    dots: false,
-    slidesToShow: 1,
-    slidesToScroll: 1, 
-    prevArrow: '',
-    nextArrow: '',
-    responsive: [
-        {
-            breakpoint: 767, 
-            settings: {
-                slidesToShow: 1,
-            } 
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-            }
-        }
-    ]
-}); 
-
-// $('.slide-hot').slick({
-//     cssEase: 'linear',
-//     autoplay: true,
-//     arrow: true,
-//     dots: false,
-//     slidesToShow: 'auto',
-//     slidesToScroll: 1, 
-//      autoplaySpeed:0,
-//     speed: 12000,
-//     infinite: true,
-//     prevArrow: '<button class="prev"><i class="fa fa-caret-left"></i></button>',
-//     nextArrow: '<button class="next"><i class="fa fa-caret-right"></i></button>',
-//     responsive: [
-//         {
-//             breakpoint: 767, 
-//             settings: {
-//                 slidesToShow: 2,
-//             }
-//         },
-//         {
-//             breakpoint: 480,
-//             settings: {
-//                 slidesToShow: 1,
-//             }
-//         }
-//     ]
-// }); 
-
-$('.slide-partner').slick({
-    autoplay: false,
-    arrow: false,
-    dots: false,
-    slidesToShow: 7,
-    slidesToScroll: 3, 
-    prevArrow: '',
-    nextArrow: '',
-    responsive: [
-        {
-            breakpoint: 767, 
-            settings: {
-                slidesToShow: 4,
-            } 
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-            }
-        }
-    ]
-}); 
-
-$( ".clc-child" ).click(function() {
-  $(this).next().toggle();
+var swiper = new Swiper('.gall-slide', {
+  // pagination: '.swiper-pagination', 
+  slidesPerView: 2,
+  centeredSlides: true,
+  paginationClickable: true,
+  loop: true,
+  direction: 'horizontal',
+  spaceBetween: 25,
+  slideToClickedSlide: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev', 
+  },
 });
 
-jQuery(document).ready(function( $ ) {
-  $("#menu").mmenu({
-     "extensions": [
-        "fx-menu-zoom"
-     ],
-     "counters": true
-  });
-});
+// $( ".clc-child" ).click(function() {
+//   $(this).next().toggle();
+// });
+
+jQuery(function($) {
+  var doAnimations = function() {
+    var offset = $(window).scrollTop() + $(window).height(),
+        $animatables = $('.content-desc p');
+    if ($animatables.length == 0) {
+      $(window).off('scroll', doAnimations);
+    }
+    $animatables.each(function(i) {
+       var $animatable = $(this);
+      if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+            $animatable.addClass('txt-anim');
+      }
+    }); 
+  };
+  $(window).on('scroll', doAnimations);
+  $(window).trigger('scroll');
+}); 
+
+
+if($(window).innerWidth() > 1023){
+    new WOW().init();
+}
