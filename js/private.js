@@ -40,3 +40,32 @@ jQuery(function($) {
 if($(window).innerWidth() > 1023){
     new WOW().init();
 }
+
+
+$("#datepicker").datetimepicker({
+  useCurrent: false,
+  format: "L",
+  showTodayButton: true,
+  icons: {
+    next: "fa fa-chevron-right",
+    previous: "fa fa-chevron-left",
+    today: 'todayText',
+  } 
+});
+$("#datepicker-1").datetimepicker({
+  useCurrent: false,
+  format: "L",
+  showTodayButton: true,
+  icons: {
+    next: "fa fa-chevron-right",
+    previous: "fa fa-chevron-left",
+    today: 'todayText',
+  } 
+});
+// $("#timepicker").datetimepicker({
+//   format: "LT",
+//   icons: {
+//     up: "fa fa-chevron-up",
+//     down: "fa fa-chevron-down"
+//   }
+// });

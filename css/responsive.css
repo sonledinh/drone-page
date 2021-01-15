@@ -252,4 +252,8 @@
     .list-form .row {
         margin: 0 -15px;
     }
+    .input-group.date input {
+        height: 45px;
+        font-size: 14px;
+    }
 }

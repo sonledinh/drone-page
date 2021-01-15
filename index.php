@@ -109,7 +109,7 @@
 						<input type="text" placeholder="入力してください。">
 					</div>
 				</div>
-				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
+				<!-- <div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
 					<label>予約時間<span>必須</span></label>
 					<div class="inp-right">
 						<ul>
@@ -117,12 +117,34 @@
 							<li><input type="text" placeholder="9:10"></li>
 						</ul>
 					</div>
+				</div> -->
+				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
+					<label>予約時間<span>必須</span></label>
+					<div class="inp-right">
+						<ul>
+							<li> 
+								<div class="input-group date" id="datepicker">
+					            	<input class="form-control text-center" placeholder="10/01/2020"/><span class="input-group-append input-group-addon text-center"><span class="input-group-text"><i class="fa fa-calendar"></i></span></span>
+					          	</div>
+							</li>
+							<li>
+								<input type="text" placeholder="9:10"> 
+								<!-- <div class="input-group date" id="timepicker">
+					            	<input class="form-control text-center" placeholder="9:10"/><span class="input-group-append input-group-addon text-center"><span class="input-group-text"><i class="fa fa-calendar"></i></span></span>
+					          	</div> -->
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
 					<label>予約期間<span>必須 </span></label>
 					<div class="inp-right">
 						<ul>
-							<li><input type="text" placeholder="2020/01/10"></li>
+							<li>
+								<div class="input-group date" id="datepicker-1">
+					            	<input class="form-control text-center" placeholder="10/01/2020"/><span class="input-group-append input-group-addon text-center"><span class="input-group-text"><i class="fa fa-calendar"></i></span></span>
+					          	</div>
+							</li>
 							<li><input type="text" placeholder="19:00"></li>
 						</ul>
 					</div>
