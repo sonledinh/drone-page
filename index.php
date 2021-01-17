@@ -33,16 +33,16 @@
 				<div class="swiper-container gall-slide">
 					<div class="swiper-wrapper">
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					</div>
 					<div class="btn-slide swiper-button-prev"><a href="javascript:void(0)"><i class="fa fa-angle-left"></i></a></div>
@@ -50,7 +50,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> 
 	<section class="box-video">
 		<div class="container-fluid">
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">

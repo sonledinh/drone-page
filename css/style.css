@@ -38,6 +38,12 @@
   font-weight: 100;
   font-style: normal;
   font-display: swap; }
+@font-face {
+  font-family: 'Yu Gothic';
+  src: url("..fonts/YuGothic-Regular.woff2") format("woff2"), url("..fonts/YuGothic-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
 body {
   box-sizing: border-box;
   color: #000000;
@@ -47,7 +53,7 @@ body {
   transition: .3s all;
   position: relative;
   font-weight: bold;
-  font-family: 'Noto';
+  font-family: 'Yu Gothic';
   background: #a8ddda; }
   body h1, body h2, body h3, body h4, body h5, body h6, body p, body label, body ul, body li, body .card, body a {
     text-decoration: none !important;

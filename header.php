@@ -10,18 +10,17 @@
     <link rel="stylesheet" type="text/css" title="" href="css/bootstrap-datetimepicker.css">
     <link rel="stylesheet" type="text/css" title="" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" title="" href="css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" title="" href="css/fancybox.min.css"> 
+    <link rel="stylesheet" type="text/css" title="" href="css/lightbox.min.css"> 
     <link rel="stylesheet" type="text/css" title="" href="css/animate.css">
     <link rel="stylesheet" type="text/css" title="" href="css/style.css">
     <link rel="stylesheet" type="text/css" title="" href="css/responsive.css">
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>  
     <header>
         <div class="header-menu wow fadeInUp wHighlight" data-wow-delay=".25s">
-            <div class="container-fluid">
+            <div class="container-fluid"> 
                 <div class="row align-items-center">
                     <div class="col-md-6 col-6">
                         <div class="logo"><a href="">
